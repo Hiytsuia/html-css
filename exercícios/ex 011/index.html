@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="raposa.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua o tamnho do seu navegador.</p>
+
+    <picture> <!--a tag picture serve para criar varios sources (fontes) ou seja um bloco para varias imagens-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--a tag source media serve para carregar uma imagem dependendo do tamanho maximo ou minimo da tela-->
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reprudiz audios em HTML 5</p>
+    <audio src="midia/WalkIntoSpace.mp3" controls autoplay loop></audio> <!--a tag audio é justamente para arquivos de audio como o nome ja diz, o parâmetro controls é para criar a faixa de audio controlável (volume, minutagem e etc) ja autoplay como o prórpio nome ja diz e para iniciar automáticamente-->
+
+    <!--loop e um parâmetro que por si só ja se explica, mantém o audio em loop-->
+
+    <!--Formatos de audio mais usados: MP3 WAV OGG-->
+
+    <audio preload="metadata"> <!--o parametro preload e útil para definir os valores auto (tocar automáticamente) / metadata (apenas carregar as informações) / none = não carregar nada -->
+        <source src="midia/WalkIntoSpace.mp3" type="audio/mpeg">
+        <!--exemplos-->
+        <source src="midia/WalkIntoSpace.mp3" type="audio/ogg"> <!--exemplos-->
+        <source src="midia/WalkIntoSpace.mp3" type="audio/wav">
+        <!--exemplos-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/WalkIntoSpace.mp3"> Click aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+
+    
+
+    
+</body>
+</html>

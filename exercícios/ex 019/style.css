@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/* tudo que em HTML é id="" em CSS é #  o id serve para identificar uma tag */
+/* tudo que em HTML é class="" em CSS é . */
+h1#principal {
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: brown;
+}
+
+.basico {
+    color: rgb(159, 161, 21);
+}
+
+.intermediario {
+    color: rgb(69, 42, 165);
+
+}
+
+.avancado {
+    color: rgb(23, 77, 32);
+
+}
+
+.destaque {
+    background-color: #174234;
+}

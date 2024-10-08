@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.GetElementById ('Teste')</code> é escrito em linguagem JavaScript.</p> <!--a Tag CODE é otima para se ler códigos no site, por isso que a tag é code, exemplo abaixo-->
+    
+    <pre>
+<code>num = int(imput('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é ÍMPAR')
+else:  
+    print('Fim do programa') <!--SHIFT + TAB = Voltar a linha ou o bloco para trás / TAB = avançar a linha para frente ou o bloco-->
+        </code>
+    </pre> <!--envelopar a a tag CODE com o código em tag PRE, indenta o código-->
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q> <!-- A tag Q significa Quotes = Aspas " --></p>
+    
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble no seu livro HTML para leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/XML_For_Dummies/7msUAZm1HcUC?hl=pt-BR&gbpv=0" >
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML nesse capítulo descrevem os blocos de texto.
+    </blockquote> <!--A tag cite serve para citar o dono da frasa e preservar os direitos / BLOCKQUOTES e uma forma de citação completa para textos enormes-->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p> <!--abbr serve para dar o significado para abreviações-->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--a tag BDO é mais da zoeira, serve para inverter o texto-->
+</body>
+</html>

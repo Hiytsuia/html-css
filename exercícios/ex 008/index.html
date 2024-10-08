@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+            background-color: lime;
+        }
+    </style>
+     <!--Caso queira que a marcação em todos os pontos seja inteira de uma cor específica, é melhor colocar a cor deseja no head logo após a tag STYLE (que por sua vez ja é linguagem CSS)-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG </p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag I (não semântica).</p> <!--Atalho = CTRL + SHIFT + P -> Digitar: abb = Atalho para formatação de texto, Exemplo: Itálico, Negrito e etc. -->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+
+    <!--Evitar de usar Tag B / I para negrito e itálico no HTML por ser forma e não semântica, em vez disso (usar STRONG e EM)-->
+    
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar também <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo temos <mark> outro texto marcado</mark> </p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido mas não considerado.</p>
+
+    <h2>Texto excluído</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <!--ins = sublinhado para HTML-->
+    <p>Existe também o <u>texto sublinhado</u> com a tag U (Não semântica)</p>
+
+    <h2>Texto sobrescrito</h2>
+<p>Para inserir coisas do tipo x<sup>20</sup>+3 <!-- X elevado a 20 + 3 --> </p> <!--sup = superior = texto elevado-->
+    <h2>Texto subscrito</h2>
+    <p>para inserir coisas do tipo H<sub>2</sub>O</p> <!--sub = texto inferior-->
+</body>
+</html>

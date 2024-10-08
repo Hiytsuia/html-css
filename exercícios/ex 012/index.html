@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body> 
+    <h1>Inserino videos hospedados localmente.</h1>
+    <p>Este vídeo esta hospedado no meu prórprio servidor</p>
+
+    <video src="midias/floresta-video720.mp4" width="560" controls></video>
+    <!-- width = Largura  / Controls = controles tipo o play do vídeo-->
+    
+    <!-- o bloco de código acima foi feito de forma simples, a forma correta para compatibilidade com todos os navegadores é upando o mesmo arquivo de video em formatos diferentes como no exemplo abaixo-->
+
+    <video width="560" poster="imagens/photo-1448375240586-882707db888b.png" controls autoplay loop>
+
+        <source src="midias/floresta-video720.mp4" type="video/mp4">
+        <source src="midias/floresta-videoweb.webm" type="video/webm">
+        <source src="midias/floresta-video720.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo</p>
+
+    </video>
+
+    <!--hospedar o video do site no pc local é muito custoso (tenha isso em mente)-->
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BwUKoe0lEd0?si=NY8QBmlcjgN2_ZVB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Vimeo</h1>  
+    <iframe src="https://player.vimeo.com/video/875784142?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  width="560" height="315" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="When The LAPD Blows Up Your Neighborhood"></iframe>
+</body>
+</html>
