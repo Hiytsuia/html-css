@@ -1,0 +1,53 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    background-color: rgb(180, 180, 180);
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+table  {
+
+    width: 500px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: rgb(83, 83, 83);
+
+}
+
+th {
+    border: 1px solid black;
+    color: whitesmoke;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.posicao {
+    text-align: center;
+}
+
+.valor {
+    text-align: right;
+}
+
+.foot {
+    border: none;
+}
+
+tfoot {
+    background-color: rgb(83, 83, 83);
+    color: whitesmoke;
+}

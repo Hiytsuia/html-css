@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style002.css">
+</head>
+<body>
+    <h1>
+        Uso de tabelas grandes
+    </h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION = TÍTULO
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>
+            População das unidades federativas
+        </caption>
+        <thead>
+            <th scope="col">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+            <th scope="col">% Total</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posicao">1</td>
+                <td>São Paulo</td>
+                <td class="valor">45,919,049</td>
+                <td class="valor">21,9%</td>
+            </tr>
+            <tr>
+                <td class="posicao">2</td>
+                <td>Minas Gerais</td>
+                <td class="valor">21,168,791</td>
+                <td class="valor">10,1%</td>
+            </tr>
+            <tr>
+                <td class="posicao">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="valor">17,264,943</td>
+                <td class="valor">8,2%</td>
+            </tr>
+            <tr>
+                <td class="posicao">4</td>
+                <td>Bahia</td>
+                <td class="valor">14,873,064</td>
+                <td class="valor">7,1%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="foot" scope="row">População Total</th>
+                <td class="foot"></td>
+                <td class="foot"></td>
+                <td class="foot"><strong>99,225,847</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href="tabela001.html">Voltar</a> | <a href="tabela003.html">Próxima</a>
+</body>
+</html>
